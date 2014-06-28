@@ -1,0 +1,71 @@
+/*
+Filename:    editor-style.css
+Zweck:       CSS für den WYSIWYG Editor
+*/
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	width:620px;
+	font:16px Century,Verdana, sans-serif;
+	color:#3c3c3b;
+}
+
+@font-face {
+    font-family: Martina;
+    src: url(fonts/Martina_.ttf);
+    font-weight:400;
+}
+
+@font-face {
+    font-family: Century;
+    src: url(fonts/Century_Gothic.ttf);
+    font-weight:400;
+}
+
+@font-face {
+    font-family: Century;
+    src: url(fonts/Century_Gothic_Italic.ttf);
+    font-style:italic;
+}
+
+h2, h3, h4, h5, h6 {
+	margin-bottom:10px;
+	font-family:Martina;
+	font-weight:normal;
+	text-transform:lowercase;
+}
+
+h3 {
+	font-size:25px;
+}
+
+p {
+	margin-bottom:20px;
+	line-height:1.7em;
+	text-align:justify;
+}
+
+a {
+	color:#95c11f;
+}
+
+ol, ul {
+	margin-bottom:20px;
+}
+
+ol li, ul li {
+	list-style-position:inside;
+	margin-bottom:5px;
+}
+
+ol li {
+	list-style-type:decimal;
+}
+
+ul li {
+	list-style-type:square;
+}
